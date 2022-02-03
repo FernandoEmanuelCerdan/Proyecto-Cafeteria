@@ -67,6 +67,7 @@ header{
 }
 
 
+/*Footer*/
 footer {
     margin-bottom: 0px;
     margin-top: 10px;
@@ -75,3 +76,32 @@ footer {
     color: rgb(255, 255, 255);
 
 }
+
+
+
+
+/*Recomendaciones*/
+.recomendaciones{
+    text-align: center;
+    margin: 50px;
+
+}
+.nuestrasRecomendaciones{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr;
+    grid-row-gap: 10px;
+    grid-template-areas: 
+    "rec1 rec2 rec3"
+    
+    ;
+}
+.rec1{
+    grid-area: rec1;
+}
+.rec2{
+    grid-area: rec2;
+}
+.rec3{
+    grid-area: rec3;
+}                    
