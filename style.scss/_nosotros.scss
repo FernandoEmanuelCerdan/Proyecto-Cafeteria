@@ -1,0 +1,49 @@
+
+.nuestro{
+    text-align: center;
+    margin:  3em;
+    margin-bottom: 4em;
+
+ }
+
+
+
+.tiposCafe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 70px;
+    grid-template-areas: 
+                        "contenedor1 contenedor2"
+                        "contenedor3 contenedor4";
+}
+
+.contenedor1{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+.contenedor2{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+.contenedor3{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+.contenedor4{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    height: auto;
+    width: auto;
+
+}
