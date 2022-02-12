@@ -1,0 +1,28 @@
+.encontranos1{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(143, 102, 64);
+    color: antiquewhite;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+} 
+
+.encontranos2{
+    @extend.encontranos1;
+    background-color: green;
+    font-size: 20px;
+    margin-left: 500px;
+}
+@mixin sizes ($width, $heght){
+    height:$heght;
+    width:$width;
+}
+
+.box{
+    text-align: center;
+    background-color: red;
+    @include sizes(200px, 50px);
+}
+
