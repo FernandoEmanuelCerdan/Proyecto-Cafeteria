@@ -1,28 +1,97 @@
-.encontranos1{
+
+.estamos{
+    background-image: url("../imagenes/d.png");
     text-align: center;
-    width: 200px;
-    height: 50px;
-    background-color: rgb(143, 102, 64);
-    color: antiquewhite;
-    border-radius: 10px;
-    border: 1px solid black;
-    
-} 
+    padding:  3em;
+    margin-bottom: 4em;
+   
 
-.encontranos2{
-    @extend.encontranos1;
-    background-color: green;
-    font-size: 20px;
-    margin-left: 500px;
-}
-@mixin sizes ($width, $heght){
-    height:$heght;
-    width:$width;
-}
+ }
 
-.box{
-    text-align: center;
-    background-color: red;
-    @include sizes(200px, 50px);
+
+
+.ubicaciones{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 70px;
+    grid-template-areas: 
+                        "ubicacion1 ubicacion2"
+                        "ubicacion3 ubicacion4"
+                        "ubicacion4 ubicacion6";
+                        
+                    p{
+                       text-align: center;
+    }
 }
 
+.ubicacion1{
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    height: auto;
+    width: auto;
+    h5{
+        text-align: center;
+    }
+}
+.ubicacion2{
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    height: auto;
+    width: auto;
+    h5{
+        text-align: center;
+    }
+}
+.ubicacion3{
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    height: auto;
+    width: auto;
+    h5{
+        text-align: center;
+    }
+}
+.ubicacion4{
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    height: auto;
+    width: auto;
+    h5{
+        text-align: center;
+    }
+}
+.ubicacion5{
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    height: auto;
+    width: auto;
+    h5{
+        text-align: center;
+    }
+
+}
+.ubicacion6{
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    height: auto;
+    width: auto;
+    h5{
+        text-align: center;
+    }
+
+}
+
+
+
+.btn-group{
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}

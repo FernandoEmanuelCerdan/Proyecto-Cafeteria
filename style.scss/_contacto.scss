@@ -1,4 +1,33 @@
-.comunicate{
+.contacto{
+    background-image: url("../imagenes/a.png");
     text-align: center;
-    margin:  2em;
+    padding:  3em;
+    margin-bottom: 4em;
+}
+
+.borde{
+
+    margin-left:100px;
+    margin-right:100px;  
+   padding-bottom: 100px; 
+    border: 1px solid black;
+    
+}
+
+
+.formularioTrabajar1{
+    margin:  4em;
+}
+
+.row{
+ margin-top:0px ;
+margin-left:200px;
+margin-bottom:0px;
+margin-right:200px;   
+}
+
+.form-floating{
+    margin:  3em;
+    margin-left:250px;
+    margin-right:250px;  
 }

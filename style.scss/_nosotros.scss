@@ -1,8 +1,9 @@
 
 .nuestro{
+    background-image: url("../imagenes/EL\ ORIGEN.png");
     text-align: center;
-    margin:  3em;
-    margin-bottom: 4em;
+    padding: 3em;
+    margin-bottom: 4em;  
 
  }
 
@@ -45,5 +46,38 @@
     align-items: center;
     height: auto;
     width: auto;
+    
+
+}
+
+.veneficiosCafe{
+    text-align: center;   
+    margin: 2em; 
+    background-color: #735032;
+}
+.veneficios{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+   
+}
+
+.veneficios1{
+
+    
+    width: 400px;
+    height: 400px;
+    
+}
+.veneficios1:hover{
+    
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px 10px #735032;
+
+    transform:scale(1.1);
+    transition: all;
+    transition-duration: 1s;
+
 
 }

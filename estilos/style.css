@@ -8,10 +8,16 @@
   font-size: 50px;
   font-style: italic;
   text-align: center;
-  color: blanchedalmond;
+  color: white;
   background-color: #000000;
   padding-top: 50px;
   padding-bottom: 10px;
+}
+
+.content_titulo a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
 }
 
 .titulo {
@@ -32,7 +38,7 @@ header {
 }
 
 header nav {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -57,7 +63,7 @@ header nav ul li :hover {
 
 header nav ul li a {
   text-decoration: none;
-  color: blanchedalmond;
+  color: white;
 }
 
 /*Footer*/
@@ -65,7 +71,13 @@ header nav ul li a {
   margin-bottom: 0px;
   margin-top: 100px;
   padding: 100px;
-  background-color: #73482F;
+  background-color: #412613;
+  color: white;
+}
+
+.footer a {
+  list-style-type: none;
+  text-decoration: none;
   color: white;
 }
 
@@ -110,15 +122,43 @@ header nav ul li a {
   transition: all 1s;
 }
 
-.comunicate {
+.contacto {
+  background-image: url("../imagenes/a.png");
   text-align: center;
-  margin: 2em;
+  padding: 3em;
+  margin-bottom: 4em;
+}
+
+.borde {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 100px;
+  border: 1px solid black;
+}
+
+.formularioTrabajar1 {
+  margin: 4em;
+}
+
+.row {
+  margin-top: 0px;
+  margin-left: 200px;
+  margin-bottom: 0px;
+  margin-right: 200px;
+}
+
+.form-floating {
+  margin: 3em;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 /*Recomendaciones*/
 .recomendaciones {
   text-align: center;
   margin: 4em;
+  color: #42493f;
+  border-bottom: #969E93 1px solid;
 }
 
 .nuestrasRecomendaciones {
@@ -155,6 +195,20 @@ header nav ul li a {
   text-align: center;
   margin-top: 40px;
   margin-right: 30px;
+  color: #42493f;
+  border-bottom: #969E93 1px solid;
+}
+
+.imagenRec1 {
+  border-radius: 10px;
+}
+
+.rec2 {
+  border-radius: 10px;
+}
+
+.rec3 {
+  border-radius: 10px;
 }
 
 .imagenRec1:hover {
@@ -164,6 +218,7 @@ header nav ul li a {
   transition: all;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
+  border-radius: 100px;
 }
 
 .rec2:hover {
@@ -173,6 +228,7 @@ header nav ul li a {
   transition: all;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
+  border-radius: 100px;
 }
 
 .rec3:hover {
@@ -182,34 +238,153 @@ header nav ul li a {
   transition: all;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
+  border-radius: 100px;
 }
 
-.encontranos1, .encontranos2 {
+.seccion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 5em 0em 5em 0em;
+}
+
+.disfruta {
   text-align: center;
-  width: 200px;
-  height: 50px;
-  background-color: #8f6640;
-  color: antiquewhite;
-  border-radius: 10px;
-  border: 1px solid black;
 }
 
-.encontranos2 {
-  background-color: green;
-  font-size: 20px;
-  margin-left: 500px;
+.disfruta h5 {
+  margin: 2em;
 }
 
-.box {
-  height: 50px;
-  width: 200px;
+.estamos {
+  background-image: url("../imagenes/d.png");
   text-align: center;
-  background-color: red;
+  padding: 3em;
+  margin-bottom: 4em;
+}
+
+.ubicaciones {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  grid-row-gap: 70px;
+      grid-template-areas: "ubicacion1 ubicacion2" "ubicacion3 ubicacion4" "ubicacion4 ubicacion6";
+}
+
+.ubicaciones p {
+  text-align: center;
+}
+
+.ubicacion1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.ubicacion1 h5 {
+  text-align: center;
+}
+
+.ubicacion2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.ubicacion2 h5 {
+  text-align: center;
+}
+
+.ubicacion3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.ubicacion3 h5 {
+  text-align: center;
+}
+
+.ubicacion4 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.ubicacion4 h5 {
+  text-align: center;
+}
+
+.ubicacion5 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.ubicacion5 h5 {
+  text-align: center;
+}
+
+.ubicacion6 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.ubicacion6 h5 {
+  text-align: center;
+}
+
+.btn-group {
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .nuestro {
+  background-image: url("../imagenes/EL ORIGEN.png");
   text-align: center;
-  margin: 3em;
+  padding: 3em;
   margin-bottom: 4em;
 }
 
@@ -272,9 +447,45 @@ header nav ul li a {
   width: auto;
 }
 
-.trabajar {
+.veneficiosCafe {
   text-align: center;
   margin: 2em;
+  background-color: #735032;
+}
+
+.veneficios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.veneficios1 {
+  width: 400px;
+  height: 400px;
+}
+
+.veneficios1:hover {
+  width: 400px;
+  height: 400px;
+  -webkit-box-shadow: 10px 10px #735032;
+          box-shadow: 10px 10px #735032;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all;
+  transition: all;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.subTrabajar {
+  background-image: url("../imagenes/c.png");
+  text-align: center;
+  padding: 3em;
+  margin-bottom: 4em;
 }
 
 .form-control-lg {
