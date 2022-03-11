@@ -5,19 +5,19 @@
     text-align: center;   
     margin: 4em;
     color: $gris;
-    border-bottom: #969E93 1px solid;
+    border-bottom: #969E93 0.063rem solid;
     
 }
 .nuestrasRecomendaciones{
     display: grid;
+    text-align: center;
     grid-template-columns: 3fr 3fr 3fr;
     grid-template-rows: 2fr;
     grid-row-gap: 10px;
     margin-left: 10px;
     grid-template-areas: 
     "rec1 rec2 rec3"
-    
-    ;
+     ;
 }
 .imagenRrec1{
     grid-area: rec1;

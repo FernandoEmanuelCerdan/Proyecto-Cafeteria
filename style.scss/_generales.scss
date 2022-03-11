@@ -82,13 +82,16 @@ header{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .redesSociales{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     list-style-type: none;
     justify-content: space-around;
+    text-align: center;
     margin-left: -0.8em;
     li{
         margin: 1em;
