@@ -15,7 +15,6 @@
     <meta name="copyright" content="Fernando">
 </head>
 
-
 <body>
     <div class="content_titulo">
         <a href="./index.html">
@@ -47,7 +46,6 @@
 
     </header>
 
-
     <section carrusel>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -63,28 +61,29 @@
             </div>
     </section>
 
-    <!-- nuestras recomendaciones -->
-
     <section>
         <h3 class="recomendaciones">NUESTRAS RECOMENDACIONES</h3>
     </section>
     <section>
         <div class="nuestrasRecomendaciones">
             <div>
-                <img class="imagenRec1" src="./imagenes/recomendado1.jpg" alt="">
-                <p class=" recomendado"> <strong> DOS SCONS DE QUESO</strong></p>
+                <a tabindex="0" data-bs-placement="bottom" data-bs-toggle="popover" title="DOS SCONS DE QUESO"
+                    data-bs-content="EL MEJOR PLAN! Ideal para disfrutarlo en todo momento.">
 
-                <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-bs-toggle="popover"
-                    data-bs-trigger="focus" title="DOS SCONS DE QUESO"
-                    data-bs-content="EL MEJOR PLAN! Ideal para disfrutarlo en todo momento.">DOS SCONS DE QUESO</a>
+                    <img class="imagenRec1" src="./imagenes/recomendado1.jpg" class="img-fluid" alt=""></a>
+                <p class=" recomendado"> <strong> DOS SCONS DE QUESO</strong></p>
 
             </div>
             <div>
-                <img class="rec2" src="./imagenes/recomendado2.jpg" alt="">
+                <a tabindex="0" data-bs-placement="bottom" data-bs-toggle="popover" title="DOS SCONS DE QUESO"
+                    data-bs-content="EL MEJOR PLAN! Ideal para disfrutarlo en todo momento.">
+                    <img class="rec2" src="./imagenes/recomendado2.jpg" class="img-fluid" alt=""></a>
                 <p class="recomendado"><strong>LA ESPECIALIDAD: CAFE EL ORIGEN</strong> </p>
             </div>
             <div>
-                <img class="rec3" src="./imagenes/recomendado3.jpg" alt="">
+                <a tabindex="0" data-bs-placement="bottom" data-bs-toggle="popover" title="DOS SCONS DE QUESO"
+                    data-bs-content="EL MEJOR PLAN! Ideal para disfrutarlo en todo momento.">
+                    <img class="rec3" src="./imagenes/recomendado3.jpg" class="img-fluid" alt=""></a>
                 <p class="recomendado"><strong>COMBO 2 BROWNIES + CAFE</strong></p>
             </div>
         </div>
@@ -94,12 +93,12 @@
     <section class="seccion">
         <div>
             <a href="./secciones/contacto.html">
-                <img src="./imagenes/contacto (1).png" alt=""></a>
+                <img src="./imagenes/contacto (1).png" class="img-fluid" alt=""></a>
 
         </div>
         <div>
             <a href="./secciones/nosotros.html">
-                <img src="./imagenes/NUESTRO CAFE.png" alt=""></a>
+                <img src="./imagenes/NUESTRO CAFE.png" class="img-fluid" alt=""></a>
         </div>
     </section>
 
@@ -109,8 +108,7 @@
         </p>
     </section>
 
-
-
+      <!-- pie de pagina -->
     <footer class="footer">
         <div>
             <a href="./index.html">
@@ -140,15 +138,10 @@
         </section>
     </footer>
 
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"> </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
-
     <script>
         var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
         var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {

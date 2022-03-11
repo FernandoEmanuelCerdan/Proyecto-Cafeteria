@@ -3,7 +3,6 @@
     /*encabezado index*/
     .content_titulo{
         background-color: #BF8360;
-
      }
     header{
         background-color:#BF8360;
@@ -100,11 +99,6 @@
         
         }
 
-
-
-
-
-
     /*TRABAJA CON NOSOTROS*/
     .form-control-lg{
         
@@ -121,20 +115,9 @@
     .d-grid{      
         margin-left:400px;
         
-        margin-right:400px;
-        
-    
+        margin-right:400px; 
     }
-
 }
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 530px) and (min-width: 480px){
     /*encabezado index*/
@@ -190,6 +173,7 @@
             transition-duration: 1s;
         
         }
+
         
           /*NOSOTROS*/
 
@@ -236,11 +220,6 @@
         
         }
 
-
-
-
-
-
     /*TRABAJA CON NOSOTROS*/
     .form-control-lg{
         
@@ -265,7 +244,8 @@
 }
 
 
-@media screen and (max-width: 580px) and (min-width: 530px){
+@media screen and (max-width: 670px) and (min-width: 530px){
+    /*encabezado index*/
     .content_titulo{
         background-color: #5B472F;
 
@@ -294,7 +274,7 @@
             grid-template-columns: 1fr;
             grid-template-rows: 2fr;
             grid-row-gap: 5px;
-            padding-left: 30px;
+            text-align: center;
             grid-template-areas: 
             "rec1" 
             "rec2" 
@@ -302,24 +282,6 @@
             ;
         }
 
-
-        .imagenRec1:hover{
-            transform:scale(1.1);
-            transition: all;
-            transition-duration: 1s;
-        }
-        .rec2:hover{
-            transform:scale(1.1);
-            transition: all;
-            transition-duration: 1s;
-        }
-        .rec3:hover{
-            transform:scale(1.1);
-            transition: all;
-            transition-duration: 1s;
-        
-        }
-        
           /*NOSOTROS*/
 
         .tiposCafe{
@@ -335,47 +297,27 @@
                                 ;
         }
         
-        .contenedor1{
-            display: grid;
+        .contenedor1{  
             grid-template-columns: 30% 70%;
-            align-items: center;
-            height: auto;
-            width: auto;
+            
         }
         .contenedor2{
-            display: grid;
             grid-template-columns: 30% 70%;
-            align-items: center;
-            height: auto;
-            width: auto;
+         
         }
-        .contenedor3{
-            display: grid;
+        .contenedor3{     
             grid-template-columns: 30% 70%;
-            align-items: center;
-            height: auto;
-            width: auto;
         }
         .contenedor4{
-            display: grid;
-            grid-template-columns: 30% 70%;
-            align-items: center;
-            height: auto;
-            width: auto;
-        
+            grid-template-columns: 30% 70%;       
         }
-
-
-
-
 
 
     /*TRABAJA CON NOSOTROS*/
     .form-control-lg{
         
         margin-left:0px;    
-        margin-right:0px;
-    
+        margin-right:0px;    
     }
     .mb-3{
        
@@ -386,31 +328,356 @@
     .d-grid{      
         margin-left:400px;
         
-        margin-right:400px;
-        
-    
+        margin-right:400px;   
     }
+        /*ENCONTRANOS*/
 
-    
+.ubicaciones{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-row-gap: 70px;
+    grid-template-areas: 
+    "ubicacion1"
+    "ubicacion2"
+    "ubicacion3"
+    "ubicacion4"
+    "ubicacion4" 
+    "ubicacion6";
+     
+  }
 
+ /*contacto*/
+ .formularioTrabajar1{
+    margin:  4em;
+}
 
+.row{
+ margin-top:0px ;
+margin-left:0px;
+margin-bottom:0px;
+margin-right:0px;   
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.form-floating{
+    margin:  3em;
+    margin-left:0px;
+    margin-right:0px;  
+}
 
 }
+
+@media screen and (max-width:820px) and (min-width: 670px){
+    /*index*/
+    .content_titulo{
+        background-color: #8f4f02;
+
+     }
+ 
+    header{
+        background-color:  #8f4f02;
+        padding: 3rem 0;
+        nav{
+            width: 80%;
+            margin: 0 auto;
+            ul{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                li{
+                 font-size: 20px;
+                 text-align: center;
+                   }
+             } 
+        }
+   }
+
+        .nuestrasRecomendaciones{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 2fr;
+            grid-row-gap: 5px;
+            text-align: center;
+            grid-template-areas: 
+            "rec1" 
+            "rec2" 
+            "rec3"           
+            ;
+        }  
+        .seccion{
+            display: flex;
+            flex-wrap:wrap-reverse;
+            margin: 5em 4em 5em 4em; 
+              
+        }
+
+          /*NOSOTROS*/
+        .tiposCafe{
+            display: grid;
+            grid-template-columns: 1fr ;
+            grid-template-rows: 1fr;
+            grid-row-gap: 20px;
+            grid-template-areas: 
+                                "contenedor1"
+                                "contenedor2"
+                                "contenedor3"
+                                "contenedor4"
+                                ;
+        }   
+        .contenedor1{  
+            grid-template-columns: 30% 70%;        
+        }
+        .contenedor2{
+            grid-template-columns: 30% 70%;
+        }
+        .contenedor3{     
+            grid-template-columns: 30% 70%;
+        }
+        .contenedor4{
+            grid-template-columns: 30% 70%;       
+        }
+
+    /*TRABAJA CON NOSOTROS*/
+    .form-control-lg{
+        
+        margin-left:0px;    
+        margin-right:0px;   
+    }
+    .mb-3{   
+        margin-left:0%;   
+        margin-right:0px;
+    }
+    .d-grid{      
+        margin-left:400px;     
+        margin-right:400px; 
+    }
+
+ /*contacto*/
+ .formularioTrabajar1{
+    margin:  4em;
+}
+
+.row{
+ margin-top:0px ;
+margin-left:0px;
+margin-bottom:0px;
+margin-right:0px;   
+}
+
+.form-floating{
+    margin:  3em;
+    margin-left:0px;
+    margin-right:0px;  
+}
+
+   /*ENCONTRANOS*/
+   .ubicaciones{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-row-gap: 70px;
+    grid-template-areas: 
+    "ubicacion1"
+    "ubicacion2"
+    "ubicacion3"
+    "ubicacion4"
+    "ubicacion4" 
+    "ubicacion6";
+     
+  }
+
+}
+
+@media screen and (max-width:910px) and (min-width: 820px){
+
+    /*index*/
+.content_titulo{
+    background-color: #573a18;
+ }
+header{
+    background-color:  #573a18;
+    padding: 3rem 0;
+    nav{
+        width: 80%;
+        margin: 0 auto;
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            li{
+             font-size: 20px;
+             text-align: center;
+               }
+         } 
+    }
+}
+
+.nuestrasRecomendaciones{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 2fr;
+grid-row-gap: 5px;
+text-align: center;
+grid-template-areas: 
+"rec1" 
+"rec2" 
+"rec3"           
+;
+}
+.seccion{
+display:grid;
+grid-template-columns:50% 50%;
+
+  
+}
+
+/*NOSOTROS*/
+.tiposCafe{
+display: grid;
+grid-template-columns: 1fr ;
+grid-template-rows: 1fr;
+grid-row-gap: 20px;
+grid-template-areas: 
+                    "contenedor1"
+                    "contenedor2"
+                    "contenedor3"
+                    "contenedor4"
+                    ;
+}
+
+.contenedor1{  
+grid-template-columns: 20% 80%;
+padding-left: 3.125rem;
+}
+.contenedor2{
+grid-template-columns: 20% 80%;
+padding-left: 3.125rem;
+}
+.contenedor3{     
+grid-template-columns: 20% 80%;
+padding-left: 3.125rem;
+}
+.contenedor4{
+grid-template-columns: 20% 80%;
+padding-left: 3.125rem;   
+}
+
+/*TRABAJA CON NOSOTROS*/
+.form-control-lg{
+    
+margin-left:0px;    
+margin-right:0px;
+
+}
+.mb-3{
+margin-left:0%;
+margin-right:0px;
+}
+.d-grid{      
+margin-left:400px;
+margin-right:400px;
+}
+
+/*contacto*/
+.formularioTrabajar1{
+margin:  4em;
+}
+.row{
+margin-top:0px ;
+margin-left:0px;
+margin-bottom:0px;
+margin-right:0px;   
+}
+.form-floating{
+margin:  3em;
+margin-left:0px;
+margin-right:0px;  
+}
+
+}
+
+@media screen and (max-width:1345px) and (min-width: 910px){
+    
+    /*index*/
+.content_titulo{
+    background-color: #cca87f;
+ }
+header{
+    background-color:  #cca87f;
+ }
+.nuestrasRecomendaciones{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    grid-row-gap: 5px;
+    text-align: center;
+    grid-template-areas: 
+    "rec1" 
+    "rec2" 
+    "rec3"           
+    ;
+    }
+    .seccion{
+    display:grid;
+    grid-template-columns:50% 50%; 
+    }
+    
+/*NOSOTROS*/
+.tiposCafe{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
+    grid-row-gap: 20px;
+    grid-template-areas: 
+                        "contenedor1 contenedor2"
+                        "contenedor3 contenedor4"
+                        ;
+    }  
+    .contenedor1{  
+    grid-template-columns: 30% 70%;
+    padding-left: 2rem;
+    }
+    .contenedor2{
+    grid-template-columns: 30% 70%;
+    padding-left: 2rem;
+    }
+    .contenedor3{     
+    grid-template-columns: 30% 70%;
+    padding-left: 2rem;
+    }
+    .contenedor4{
+    grid-template-columns: 30% 70%;
+    padding-left: 2rem;  
+    }
+
+/*TRABAJA CON NOSOTROS*/
+.form-control-lg{ 
+    margin-left:0px;    
+    margin-right:0px; 
+    }
+    .mb-3{  
+    margin-left:0%; 
+    margin-right:0px;
+    }
+    .d-grid{      
+    margin-left:400px;
+    margin-right:400px; 
+    }
+    
+    /*contacto*/
+    .formularioTrabajar1{
+    margin:  4em;
+    }
+    .row{
+    margin-top:0px ;
+    margin-left:0px;
+    margin-bottom:0px;
+    margin-right:0px;   
+    }
+    .form-floating{
+    margin:  3em;
+    margin-left:0px;
+    margin-right:0px;  
+    }
+}
+

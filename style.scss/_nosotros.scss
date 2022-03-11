@@ -55,29 +55,42 @@
     margin: 2em; 
     background-color: #735032;
 }
+
+
 .veneficios{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content:space-around;
-   
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-row-gap: 40px;
+    grid-template-areas:
+    "natural"
+    "concentracion"
+    "antioxidantes"
+    ;
 }
 
-.veneficios1{
-
-    
-    width: 400px;
-    height: 400px;
+.natural{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    height: auto;
+    width: auto;
     
 }
-.veneficios1:hover{
-    
-    width: 400px;
-    height: 400px;
-    box-shadow: 10px 10px #735032;
 
-    transform:scale(1.1);
-    transition: all;
-    transition-duration: 1s;
-
-
+.concentracion{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    height: auto;
+    width: auto;
 }
+.antioxidantes{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+ 
