@@ -123,7 +123,7 @@ header nav ul li a {
 }
 
 .contacto {
-  background-image: url("../imagenes/a.png");
+  background-image: url("../imagenes/fondo2.png");
   text-align: center;
   padding: 3em;
   margin-bottom: 4em;
@@ -259,7 +259,7 @@ header nav ul li a {
 }
 
 .estamos {
-  background-image: url("../imagenes/d.png");
+  background-image: url("../imagenes/fondo3.png");
   text-align: center;
   padding: 3em;
   margin-bottom: 4em;
@@ -382,7 +382,7 @@ header nav ul li a {
 }
 
 .nuestro {
-  background-image: url("../imagenes/EL ORIGEN.png");
+  background-image: url("../imagenes/fondo1.png");
   text-align: center;
   padding: 3em;
   margin-bottom: 4em;
@@ -501,7 +501,7 @@ header nav ul li a {
 }
 
 .subTrabajar {
-  background-image: url("../imagenes/c.png");
+  background-image: url("../imagenes/fondo4.png");
   text-align: center;
   padding: 3em;
   margin-bottom: 4em;
