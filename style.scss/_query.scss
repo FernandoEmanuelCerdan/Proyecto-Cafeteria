@@ -1,132 +1,5 @@
 
-@media screen and (max-width: 480px) and (min-width: 280px){
-    /*encabezado index*/
-    .content_titulo{
-        background-color: #BF8360;
-     }
-    header{
-        background-color:#BF8360;
-        padding: 3rem 0;
-        nav{
-            width: 80%;
-            margin: 0 auto;
-            ul{
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;
-                li{
-                 font-size: 20px;
-                 text-align: center;
-                   }
-             } 
-        }
-   }
 
-
-.nuestrasRecomendaciones{
-            display: grid;
-            text-align: center;
-            grid-template-columns: 1fr;
-            grid-template-rows: 2fr;
-            grid-row-gap: 5px;
-            padding-left: 0px;
-            grid-template-areas: 
-            "rec1" 
-            "rec2" 
-            "rec3"           
-            ;
-        }
-
-
-        .imagenRec1:hover{
-            display: grid;
-            transform:scale(1.1);
-            transition: all;
-            transition-duration: 1s;
-            padding-left: auto;
-            padding-left: 2rem;
-            
-            
-            
-        }
-        .rec2:hover{
-            transform:scale(1.1);
-            transition: all;
-            transition-duration: 1s;
-        }
-        .rec3:hover{
-            transform:scale(1.1);
-            transition: all;
-            transition-duration: 1s;
-        
-        }
-
-
-      /*NOSOTROS*/
-
-        .tiposCafe{
-            display: grid;
-            grid-template-columns: 1fr ;
-            grid-template-rows: 1fr;
-            grid-row-gap: 20px;
-            grid-template-areas: 
-                                "contenedor1"
-                                "contenedor2"
-                                "contenedor3"
-                                "contenedor4"
-                                ;
-        }
-        
-        .contenedor1{
-            display: grid;
-            grid-template-columns: 30% 70%;
-            align-items: center;
-            height: auto;
-            width: auto;
-        }
-        .contenedor2{
-            display: grid;
-            grid-template-columns: 30% 70%;
-            align-items: center;
-            height: auto;
-            width: auto;
-        }
-        .contenedor3{
-            display: grid;
-            grid-template-columns: 30% 70%;
-            align-items: center;
-            height: auto;
-            width: auto;
-        }
-        .contenedor4{
-            display: grid;
-            grid-template-columns: 30% 70%;
-            align-items: center;
-            height: auto;
-            width: auto;
-        
-        }
-
-    /*TRABAJA CON NOSOTROS*/
-    .form-control-lg{
-        
-        margin-left:0px;    
-        margin-right:0px;
-    
-    }
-    .mb-3{
-       
-        margin-left:0%;
-    
-        margin-right:0px;
-    }
-    .d-grid{      
-        margin-left:400px;
-        
-        margin-right:400px; 
-    }
-
-}
 
 @media screen and (max-width: 530px) and (min-width: 480px){
     /*encabezado index*/
@@ -249,7 +122,38 @@
         
     
     }
+    /*contacto*/
+ .formularioTrabajar1{
+    margin:  4em;
+}
 
+.row{
+ margin-top:0px ;
+margin-left:0px;
+margin-bottom:0px;
+margin-right:0px;   
+}
+
+.form-floating{
+    margin:  3em;
+    margin-left:0px;
+    margin-right:0px;  
+}
+
+.ubicaciones{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-row-gap: 70px;
+    grid-template-areas: 
+    "ubicacion1"
+    "ubicacion2"
+    "ubicacion3"
+    "ubicacion4"
+    "ubicacion4" 
+    "ubicacion6";
+     
+  }
 }
 
 
